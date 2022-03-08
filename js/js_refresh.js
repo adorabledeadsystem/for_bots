@@ -1,0 +1,12 @@
+$(document).ready(function(){
+				$('.galka-icon').attr("id","icon_inactive");
+            $('.material-icons').attr("id","icon_active");
+            $('.title').removeAttr("id","icon_active");
+            $('.title-galka').removeAttr("id","icon_active");
+            $('.material-icons-1').removeAttr("id","icon_inactive");
+            $('.title-1').removeAttr("id","icon_inactive");
+            $('.galka-icon-1').removeAttr("id","icon_active");
+            $('.title-galka-1').removeAttr("id","icon_active");
+            $('.label').removeAttr("id","label_active");
+            $('.label-1').removeAttr("id","label-1_active");
+});
